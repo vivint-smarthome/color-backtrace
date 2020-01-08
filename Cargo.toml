@@ -29,4 +29,4 @@ gimli-symbolize = ["backtrace/gimli-symbolize"]
 termcolor = "1.0"
 atty = "0.2"
 failure = { version = "0.1", optional = true }
-backtrace = "0.3"
+backtrace = { git = "https://github.com/vivint-smarthome/backtrace-rs", branch = "update-goblin" }
